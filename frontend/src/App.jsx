@@ -380,10 +380,12 @@ export default function App() {
 
   return (
     <div style={{
+      width: "100%",
       minHeight: "100vh",
       background: "linear-gradient(135deg, #020817 0%, #0a0f1e 50%, #050d1a 100%)",
       fontFamily: "'DM Sans', 'Segoe UI', sans-serif",
       color: "#e2e8f0",
+      overflowX: "hidden",
     }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
